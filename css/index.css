@@ -294,13 +294,27 @@ main .container-edge{
     width: 100%;
     background-color: rgb(151, 151, 196);
     border-radius: 7px;
-    background-image: url('../media/images/playaaguasClaras.jfif');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     border: 1px solid rgb(68, 53, 53);
     display: flex;
     flex-direction: column;
+}
+.costaRicaPlaya{
+    background-image: url('../media/images/Costa-Rica-playas_Playa_Hermosa_Guanacaste-a.jpg');
+}
+.montañaVolcanica{
+    background-image: url('../media/images/Montana_volcanica_700\ \(1\).jpg');
+}
+.paginaPrincipalEdge{
+    background-image: url('../media/images/paginaPrincipalEdgeMobile.png');
+}
+.playaAguasClaras{
+    background-image: url('../media/images/playaaguasClaras.jfif');
+}
+.playayMontaña{
+    background-image: url('../media/images/playaYmontaña.jfif');
 }
 .edge-card:hover{
     box-shadow: 2px 2px 8px 5px rgb(103, 103, 170);
