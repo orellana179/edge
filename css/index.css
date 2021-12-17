@@ -276,3 +276,17 @@ main {
 .submenu-setting .setting-cuadrilla .list-icon{ 
     background-image: url('../media/icons/icons8-circled-menu-48.png');
 }
+
+.footer{
+    width: 85%;
+    margin: 0 auto;
+    padding: 20px 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-right{
+background-color: blueviolet;
+}
+.footer-left{
+    background-color: brown;
+}
