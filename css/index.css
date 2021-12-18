@@ -163,7 +163,7 @@ main {
     display: flex;
     flex-direction: row;
     align-items: center;
-    min-width: 180px;
+    margin-right: 1rem;
 }
 .submenu-icon{
     width: 30px;
@@ -179,12 +179,12 @@ main {
 }
 
 .submenu-links .bar{
+    margin-right: 20px;
     background-image: url('../media/icons/icons8-mobile-application-hamburger-menu-setting-interface-24.png');
 }
 .submenu-links .links-items{
-    width: 100px;
+    width: 80px;
     font-size: 1.5rem;
-    margin-left: 20px;
 }
 .submenu-links .more{
     background-image: url('../media/icons/icons8-more-24.png');
@@ -192,8 +192,7 @@ main {
 .submenu-setting{
     list-style-type: none;
     height: 35px;
-    display: flex;
-    flex-direction: row;
+    display: none;
 }
 .submenu-setting .setting-personalizar{
     width: 150px;
@@ -250,7 +249,7 @@ main {
 }
 .submenu-setting .setting-cuadrilla{
     width: 25%;
-    display: flex;
+    display: none;
     flex-direction: row;
     align-items: center;
 }
