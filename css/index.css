@@ -275,7 +275,6 @@ main {
     background-image: url('../media/icons/icons8-circled-menu-48.png');
 }
 
-<<<<<<< HEAD
 /* SECTION CONTAINER */
 
 main .container-edge{
@@ -379,7 +378,6 @@ main .container-edge{
 }
 .card-more{
     background-image: url('../media/icons/icons8-more-24.png');
-=======
 
 /* FOOTER */
 footer{
@@ -427,5 +425,4 @@ padding: 1rem;
  .left-items a{
     text-decoration: none;
     color: rgb(216, 184, 184);
->>>>>>> footer
 }
