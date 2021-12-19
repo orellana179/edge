@@ -380,7 +380,8 @@ main .container-edge{
     background-image: url('../media/icons/icons8-more-24.png');
 
 /* FOOTER */
-footer{
+
+footer {
     width: 100%;
     background-color: rgb(46, 54, 99);
 }
