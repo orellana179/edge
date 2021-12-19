@@ -276,107 +276,51 @@ main {
     background-image: url('../media/icons/icons8-circled-menu-48.png');
 }
 
-/* SECTION CONTAINER */
 
-main .container-edge{
-    width: 90%;
-    margin: 10px auto;
+/* FOOTER */
+footer{
+    width: 100%;
+    background-color: rgb(46, 54, 99);
+}
+.footer{
+    width: 85%;
+    margin: 0 auto;
+    padding: 20px 20px;
     display: grid;
-    grid-auto-rows: 30rem;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
     gap: 1rem;
 }
-.feature{
-    grid-column: span 2;
+.footer-right{
+padding: 1rem;
 }
-.edge-card{
-    width: 100%;
-    background-color: rgb(151, 151, 196);
-    border-radius: 7px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border: 1px solid rgb(68, 53, 53);
-    display: flex;
-    flex-direction: column;
+.footer-right .right-head{
+    font-size: 1.8rem;
+    color: white;
+    margin-bottom: 1rem;
 }
-.costaRicaPlaya{
-    background-image: url('../media/images/Costa-Rica-playas_Playa_Hermosa_Guanacaste-a.jpg');
+.footer-right .right-list{
+    list-style-type: none;
+    margin: 0.5rem;
+    font-size: 1.6rem;
 }
-.montañaVolcanica{
-    background-image: url('../media/images/Montana_volcanica_700\ \(1\).jpg');
+.right-list .list-name{
+    margin-bottom: 0.5rem;
+    margin-bottom: 1rem;
 }
-.paginaPrincipalEdge{
-    background-image: url('../media/images/paginaPrincipalEdgeMobile.png');
+.list-name a{
+    text-decoration: none;
+    color: rgb(223, 204, 204);
 }
-.playaAguasClaras{
-    background-image: url('../media/images/playaaguasClaras.jfif');
-}
-.playayMontaña{
-    background-image: url('../media/images/playaYmontaña.jfif');
-}
-.edge-card:hover{
-    box-shadow: 2px 2px 8px 5px rgb(103, 103, 170);
-    cursor: pointer;
-}
-.card-head{
-    height: 40%;
-    padding: 20px;
-}
-.card-pie{
-    height: 70%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    padding: 20px; 
-}
-.card-icon{
-    display: block;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 25px;
-    height: 25px;
-    border-radius: 5px;
+.right-p{
+    color: rgb(223, 204, 204);
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
 }
 
-.picture{
-    background-image: url('../media/icons/icons8-expand-48.png');
+.left-items{
+    margin-bottom: 1.5rem;
 }
-.card-origen{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin-bottom: 10px;
-}
-.origin{
-    background-image: url('../media/icons/icons8-microphone-24.png');
-}
-.card-origen .origen-texto{
-    font-size: 1.8rem;
-    font-weight: normal;
-    margin-left: 5px;
-    color: white;
-}
-.card-titulo{
-    font-size: 2.8rem;
-    color: white;
-    line-height: 35px;
-    font-weight: normal;
-    margin-bottom: 10px;
-    height: 110px;
-}
-.card-titulo a{
-    color: white;
-}
-.card-footer{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-.emoji{
-    background-image: url('../media/icons/icons8-settings-50.png');
-}
-.card-more{
-    background-image: url('../media/icons/icons8-more-24.png');
+ .left-items a{
+    text-decoration: none;
+    color: rgb(216, 184, 184);
 }
