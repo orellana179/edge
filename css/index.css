@@ -275,7 +275,6 @@ main {
     background-image: url('../media/icons/icons8-circled-menu-48.png');
 }
 
-<<<<<<< HEAD
 /* SECTION CONTAINER */
 
 main .container-edge{
@@ -379,53 +378,4 @@ main .container-edge{
 }
 .card-more{
     background-image: url('../media/icons/icons8-more-24.png');
-=======
-
-/* FOOTER */
-footer{
-    width: 100%;
-    background-color: rgb(46, 54, 99);
-}
-.footer{
-    width: 85%;
-    margin: 0 auto;
-    padding: 20px 20px;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-    gap: 1rem;
-}
-.footer-right{
-padding: 1rem;
-}
-.footer-right .right-head{
-    font-size: 1.8rem;
-    color: white;
-    margin-bottom: 1rem;
-}
-.footer-right .right-list{
-    list-style-type: none;
-    margin: 0.5rem;
-    font-size: 1.6rem;
-}
-.right-list .list-name{
-    margin-bottom: 0.5rem;
-    margin-bottom: 1rem;
-}
-.list-name a{
-    text-decoration: none;
-    color: rgb(223, 204, 204);
-}
-.right-p{
-    color: rgb(223, 204, 204);
-    font-size: 1.4rem;
-    margin-bottom: 1rem;
-}
-
-.left-items{
-    margin-bottom: 1.5rem;
-}
- .left-items a{
-    text-decoration: none;
-    color: rgb(216, 184, 184);
->>>>>>> footer
 }
