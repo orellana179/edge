@@ -315,6 +315,12 @@ main .container-edge{
 .playayMontaña{
     background-image: url('../media/images/playaYmontaña.jfif');
 }
+.playabonita{
+    background-image: url('../media/images/playabonita.jfif');
+}
+.playamedia{
+    background-image: url('../media/images/playamedia.jfif');
+}
 .edge-card:hover{
     box-shadow: 2px 2px 8px 5px rgb(103, 103, 170);
     cursor: pointer;
